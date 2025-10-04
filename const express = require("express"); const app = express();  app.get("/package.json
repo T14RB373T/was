@@ -1,0 +1,14 @@
+{
+  "name": "wa-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node index.js & node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "string-similarity": "^4.0.4"
+  }
+}
